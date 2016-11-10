@@ -1,4 +1,4 @@
-#File: sentiment_mod.py
+#source: https://pythonprogramming.net/sentiment-analysis-module-nltk-tutorial/
 
 import nltk
 import random
@@ -53,7 +53,6 @@ def find_features(document):
     features = {}
     for w in word_features:
         features[w] = (w in words)
-
     return features
 
 #Problem may be here- this file wasn't created in the original tutorial (pickling)

@@ -1,3 +1,5 @@
+#source: https://pythonprogramming.net/sentiment-analysis-module-nltk-tutorial/
+
 import nltk
 import random
 #from nltk.corpus import movie_reviews
